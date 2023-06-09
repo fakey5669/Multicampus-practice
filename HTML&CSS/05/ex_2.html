@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #container {
+        width: 520px;
+        border: 1px solid black;
+        padding: 20px 40px;
+        margin: 0 auto;
+      }
+      fieldset {
+        margin-bottom: 15px;
+      }
+      legend {
+        font-weight: bold;
+      }
+      ul {
+        list-style-type: none;
+      }
+      li {
+        line-height: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>백엔드 개발자 지원서</h1>
+      <p>
+        HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.
+      </p>
+      <hr />
+      <form>
+        <h4>개인 정보</h4>
+        <ul>
+          <p>
+            <label>이 름 <input type="text" id="user_id" /></label>
+          </p>
+
+          <p>
+            <label>연락처 <input type="text" id="number" /></label>
+          </p>
+        </ul>
+        <h4>지원 분야</h4>
+        <ul>
+          <p>
+            <label
+              ><input
+                type="radio"
+                name="web"
+                value="publishing"
+                checked
+              />웹퍼블리싱</label
+            >
+          </p>
+          <p>
+            <label
+              ><input type="radio" name="web" value="develop" />웹 애플레이션
+              개발</label
+            >
+          </p>
+          <p>
+            <label
+              ><input type="radio" name="web" value="environment" />개발 환경
+              개선</label
+            >
+          </p>
+        </ul>
+        <h4>지원 동기</h4>
+        <p>
+          <textarea
+            cols="60"
+            rows="5"
+            placeholder="본사 지원 동기를 간략히 써 주세요."
+          ></textarea>
+        </p>
+
+        <input type="submit" value="접수하기" />
+        <button>다시 쓰기</button>
+      </form>
+    </div>
+  </body>
+</html>

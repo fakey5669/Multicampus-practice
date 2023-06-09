@@ -1,0 +1,13 @@
+#description {
+  border: 1px dotted black;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+}
+
+#receipe {
+  border: 1px dotted black;
+  margin: 10px;
+  padding: 20px;
+}

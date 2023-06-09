@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+/* .container {
+  display: flex;
+  justify-content: center;
+} */
+.container {
+  display: flex;
+}
+.nave {
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  margin: 0 20px;
+  border: 1px solid #222;
+}
